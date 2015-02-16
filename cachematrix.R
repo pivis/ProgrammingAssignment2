@@ -4,8 +4,8 @@
 ## These functions allows one to work with a matrix and cache the inverse.
 ## Usage example:
 ##   x <- makeCacheMatrix(matrix(1:4, 2, 2))
-##   y <- cacheSolve(x) + 1
-##   z <- cacheSolve(x)^2
+##   y <- cacheSolve(x) + 1 # will trigger computation of inversed matrix
+##   z <- cacheSolve(x)^2   # will get inversed matrix from cache
 
 
 ##   makeCacheMatrix creates a new object which represents a matrix and
